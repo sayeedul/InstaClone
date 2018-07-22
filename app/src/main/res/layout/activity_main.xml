@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="78dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@drawable/insta1" />
+
+    <EditText
+        android:id="@+id/userET"
+        android:layout_width="272dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="153dp"
+        android:ems="10"
+        android:hint="   ENTER USERNAME"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passET"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/userET"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="169dp"
+        android:ems="10"
+        android:hint="   ENTER PASSWORD"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="71dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/userET"
+        android:layout_marginEnd="1dp"
+        android:layout_toStartOf="@+id/userET"
+        app:srcCompat="@drawable/usericon" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="71dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/passET"
+        android:layout_toStartOf="@+id/userET"
+        app:srcCompat="@drawable/password" />
+
+    <Button
+        android:id="@+id/loginBTN"
+        android:layout_width="191dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="click"
+        android:text="LOGIN / REGISTER"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

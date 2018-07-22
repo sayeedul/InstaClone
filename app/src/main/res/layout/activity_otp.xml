@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lock"
+    android:visibility="visible">
+
+
+    <Button
+        android:id="@+id/verifyBTN"
+        android:layout_width="230dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:onClick="verifyClick"
+        android:text="GET OTP"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/numberET"
+        android:layout_width="327dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="            Enter MOBILE NUMBER"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/otpET"
+        android:layout_width="327dp"
+        android:layout_height="64dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="                  **Enter OTP**"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>
+
+
+
