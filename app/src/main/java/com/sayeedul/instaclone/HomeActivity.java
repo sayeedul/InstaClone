@@ -431,7 +431,8 @@ public class HomeActivity extends AppCompatActivity {
 
     private void alertFollowOpenning()
     {
-        String abt = "To Follow or Unfollow a user, just click on the Tick box. Users followed by You are marked GREEN Ticked.";
+        String abt = "To Follow or Unfollow a user, just click on the Tick box. Users followed by You are marked GREEN Ticked."+
+                        "if the grren marked tick is not coming,close the app and restart again.";
 
         AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this)
                 .setTitle("TO FOLLOW")
